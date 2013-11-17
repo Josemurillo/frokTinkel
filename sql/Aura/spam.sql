@@ -1,0 +1,7 @@
+CREATE TABLE `spam` (
+	`guid` INT(10) NULL DEFAULT NULL,
+	`mensaje` VARCHAR(50) NULL DEFAULT NULL,
+	`time` TIMESTAMP NULL DEFAULT NULL
+)
+COLLATE='utf8_general_ci'
+ENGINE=InnoDB;
